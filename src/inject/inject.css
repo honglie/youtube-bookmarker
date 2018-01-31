@@ -1,0 +1,100 @@
+#youtube-sidebar-notes textarea {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+  border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color;
+  border-image: none;
+  border-style: none none none none;
+  border-width: medium 1px 1px medium;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+  color: #555555;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  transition: background-color 0.2s ease 0s;
+  font-family : Roboto,arial,sans-serif;
+
+}
+
+#youtube-sidebar-notes textarea:focus {
+  outline-width: 0;
+}
+
+#youtube-sidebar-notes #header {
+  background : rgba(128, 128, 128, 0.78);
+  text-indent: 15px;
+  padding: 5px;
+  color: white;
+}
+
+.setTimeBox{
+  width: 150px;
+  height: 30px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #fff;
+  padding-left: 15px;
+}
+
+.inputBtn
+{
+ border: solid 2px;
+ background: none;
+ box-shadow:none;
+ border-radius: 0px;
+ line-height: 23px;
+ background: #f8f8f8;
+ border-color: #d3d3d3;
+ color: #333;
+ height: 30px;
+ border-style: none;
+ border-left: solid 1px #d3d3d3;
+
+}
+
+.inputTxt
+{
+  padding: 5px;
+  padding-bottom: 6px;
+  width: 60px;
+  border-style: none;
+  border-width: 2px;
+  border-right: 0px;
+  border-color: #d3d3d3;
+}
+
+.inputTxt:disabled{
+  background: transparent;
+}
+
+hr{
+  margin-top: 10px;
+  height: 1px;
+  margin-bottom: 10px;
+  background: #d3d3d3;
+}
+
+.bookmark{
+  padding: 10px;
+  background: #f8f8f8;
+  border: solid 1px #d3d3d3;
+  border-top: none;
+}
+
+#savedBookmarksDiv{
+  margin-top: 10px;
+  border-top: solid 1px #d3d3d3;
+  resize: none; 
+ 
+  height : 65%;
+  overflow: auto
+}
+
+.bookmark a{
+  font-size: 15px;
+  text-decoration: none;
+}

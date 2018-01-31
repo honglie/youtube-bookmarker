@@ -1,0 +1,62 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+#mainPopup {
+	padding: 10px;
+	height: 200px;
+	width: 400px;
+	font-family: Helvetica, Ubuntu, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+.list-group{
+	height: 240px;
+	overflow: auto;
+}
+
+.container{
+	margin-top: 5px;
+	width: 380px;
+}
+
+h4{
+	text-align: center;
+}
+h4 img{
+	height:50px;
+}
+
+p{
+	color: rgba(128, 128, 128, 0.78);
+	font-size: 13px;
+	float: left;
+}
+
+p > a:hover{
+	text-decoration: none;
+}
+
+p > a{
+	color : rgba(128, 128, 128, 0.78);
+}
+
+.list-group-item a
+{
+	color: #337ab7;
+	height: 60px;
+}
+
+.list-group-item a:hover
+{
+	text-decoration: none;
+}
+
+.options{
+	float: right;	
+	background: transparent;
+	border: none;
+}
